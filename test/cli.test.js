@@ -30,12 +30,12 @@ describe('upload', () => {
     }).then(ret => {
       assert.deepEqual(ret, [
         {
-          name: '/alioss/demo/index.js',
-          url: 'http://your bucket.your region.aliyuncs.com//alioss/demo/index.js',
+          name: 'alioss/demo/index.js',
+          url: 'http://your bucket.your region.aliyuncs.com/alioss/demo/index.js',
         },
         {
-          name: '/alioss/demo/index.css',
-          url: 'http://your bucket.your region.aliyuncs.com//alioss/demo/index.css',
+          name: 'alioss/demo/index.css',
+          url: 'http://your bucket.your region.aliyuncs.com/alioss/demo/index.css',
         },
       ]);
       done();
