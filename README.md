@@ -27,12 +27,12 @@ npm i alioss-upload --save
 ```json
 {
   "script": {
-    "upload": "alioss-upload -c {{configPathForOss}}"
+    "upload": "alioss-upload -c {{configPathForOss}} -p {{sourceDir}}"
   }
 }
 ```
 
-`configPathForOss`: 配置文件路径 ，内容如下
+`configPathForOss`: 配置文件路径(可不传，默认值: {process.cwd()}/.aliossrc)，内容如下
 
 ```json
 {
@@ -43,3 +43,5 @@ npm i alioss-upload --save
   "accessKeySecret": "your accessKeySecret"
 }
 ```
+
+`sourceDir`: 静态资源目录，也可为当个文件路径 (可不传，默认值: {process.cwd()}/dist)
