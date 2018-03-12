@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 
 const argv = require('yargs')
-  .option('config', {
+  .option('c', {
     describe: 'set your alioss config path',
     type: 'string',
+    alias: 'config',
   })
-  .option('path', {
+  .option('p', {
     describe: 'set your upload files path',
     type: 'string',
+    alias: 'path',
   })
   .help()
   .argv;

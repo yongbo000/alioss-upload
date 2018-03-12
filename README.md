@@ -13,3 +13,27 @@
 [codecov-url]: https://codecov.io/github/yongbo000/alioss-upload?branch=master
 [download-image]: https://img.shields.io/npm/dm/alioss-upload.svg?style=flat-square
 [download-url]: https://npmjs.org/package/alioss-upload
+
+## 使用
+
+`package.json`
+
+```json
+{
+  "script": {
+    "upload": "alioss-upload -c {{configPathForOss}}"
+  }
+}
+```
+
+`configPathForOss`: 配置文件路径 ，内容如下
+
+```json
+{
+  "region": "your region",
+  "bucket": "your bucket",
+  "bucketPath": "your bucketPath",
+  "accessKeyId": "your accessKeyId",
+  "accessKeySecret": "your accessKeySecret"
+}
+```

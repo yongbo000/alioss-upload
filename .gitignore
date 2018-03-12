@@ -6,7 +6,6 @@ coverage/
 run/
 .DS_Store
 *.swp
-dist/
 logs/
 .vscode
 alioss.json
