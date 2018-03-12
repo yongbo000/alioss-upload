@@ -14,6 +14,12 @@
 [download-image]: https://img.shields.io/npm/dm/alioss-upload.svg?style=flat-square
 [download-url]: https://npmjs.org/package/alioss-upload
 
+## 安装
+
+```sh
+npm i alioss-upload --save
+```
+
 ## 使用
 
 `package.json`
