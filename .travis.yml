@@ -1,8 +1,7 @@
-vissudo: false
+sudo: false
 language: node_js
 node_js:
-  - '8'
-  - '9'
+  - '6'
 install:
   - npm i npminstall && npminstall
 script:
