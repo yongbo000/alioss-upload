@@ -1,0 +1,7 @@
+{
+  "region": "your region",
+  "bucket": "your bucket",
+  "bucketPath": "/alioss/demo",
+  "accessKeyId": "your accessKeyId",
+  "accessKeySecret": "your accessKeySecret"
+}
