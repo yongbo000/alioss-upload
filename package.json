@@ -32,7 +32,6 @@
   "homepage": "https://github.com/yongbo000/alioss-upload#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.1",
-    "coffee": "^4.1.0",
     "eslint": "^4.14.0",
     "eslint-config-egg": "^6.0.0",
     "sinon": "^4.4.3",

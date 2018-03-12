@@ -23,7 +23,7 @@ describe('upload', () => {
       };
     });
   });
-  it('默认参数', done => {
+  it('上传成功', done => {
     upload({
       config: path.join(cwd, '.aliossrc'),
       baseDir: path.join(cwd, 'dist'),
